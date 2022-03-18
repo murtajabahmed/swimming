@@ -1,0 +1,9 @@
+menu hover gradient horizintal code: af5cfc - 155ed1
+1nd card gradient horizintal code:ffaf00 - ff8615
+2nd card gradient horizintal code:ba5cff - 155ed1
+3nd card gradient horizintal code:ff3050 - ff1c98
+4nd card gradient horizintal code:ff14e7 - b71ee0
+profile card background color: f3f3f3
+contact card color:0095de
+button vertical gradient code:ff8b00 - ff2f4f
+text color: ff6300 - 000000 - ffffff - 505050

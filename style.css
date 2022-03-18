@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@300;400;500&display=swap');
+/*     font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+    width: 1350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.menu ul li a{
+    color: #000;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 6000;
+    text-decoration: none;
+    padding: 0 22px;
+    line-height: 129px;
+}
+.active, .menu ul li a:hover{
+    color: #fff;
+    background: rgb(18,89,203);
+    background: linear-gradient(0deg, rgba(18,89,203,1) 0%, rgba(176,90,254,1) 100%); 
+}
+.logo{
+    padding: 40px 0;
+}
+.logo img{
+    display: block;
+}
+.banner {
+    width:1440px;
+    height: 765px;
+    position: relative;
+}
+.banner img{
+    position: absolute;
+    width:1420px;
+    height: 765px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*card design*/
+.card{
+    width: 1440px;
+    height: auto;
+    margin-top: 30px;
+    display: inline-flex;
+}
+.c{
+    width: 315px;
+    height: 400px;
+    margin: auto;
+    background-color: aqua;
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+}
+.c h2{
+    font-size: 51px;
+    font-weight: 600;
+}
+.c p{
+    font-size: 23px;
+    margin-top: 20px;
+    width: 202px;
+}
+.c i{
+    font-size: 36px;
+    text-align: right;
+    margin-top: -40px;
+    color: #fff;
+    display: block;
+}
+.card1{
+    background: rgb(255,134,21);
+    background: linear-gradient(0deg, rgba(255,134,21,1) 0%, rgba(255,176,0,1) 100%); 
+}
+.card2{
+    background: rgb(21,94,209);
+    background: linear-gradient(0deg, rgba(21,94,209,1) 0%, rgba(186,92,255,1) 100%); 
+}
+.card3{
+    background: rgb(255,28,152);
+    background: linear-gradient(0deg, rgba(255,28,152,1) 0%, rgba(255,48,81,1) 100%); 
+}
+.card4{
+    background: rgb(183,30,224);
+    background: linear-gradient(0deg, rgba(183,30,224,1) 0%, rgba(255,20,231,1) 100%); 
+}
